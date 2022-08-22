@@ -1,5 +1,7 @@
 body { font-size: 11px; }
 
+.content-wrapper { background-color: #e9edf3; }
+    
 .font-reduce-button { font-size: 11px; } 
 
 i { font-size: 12px; }
@@ -11,7 +13,10 @@ i { font-size: 12px; }
 
 .fill-control { flex: 1; }
 
-.table-s, .table-m, .table-l, .table-x { overflow: auto; }
+.table-s, .table-m, .table-l, .table-x , .table-lx{ 
+    overflow: auto; 
+    padding: 0px;
+}
 
 .table-s {  max-height: 150px; }
 
@@ -20,3 +25,5 @@ i { font-size: 12px; }
 .table-l { max-height: 350px; }
 
 .table-x {  max-height: 500px; }
+
+.table-lx { max-height: 600px; }

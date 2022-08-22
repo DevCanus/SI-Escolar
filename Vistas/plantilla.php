@@ -17,7 +17,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Theme style -->
   <link rel="stylesheet" href="Vistas/Assets/dist/css/adminlte.min.css">
 
-  <link rel="stylesheet" href="Vistas/Assets/dist/css/Examenes/size-tweeks.css">
+  <link rel="stylesheet" href="Vistas/Assets/dist/css/Examenes/tweeks.css">
 
   <link rel="stylesheet" href="Vistas/Assets/dist/css/Examenes/fechas.css">
 

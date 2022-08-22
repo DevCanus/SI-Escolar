@@ -67,7 +67,7 @@
             </form>
         </div>    
     
-        <div class="container-fluid table-m mb-3"> <!-- Tabla de Calificaciónes -->
+        <div class="card table-m mb-3"> <!-- Tabla de Calificaciónes -->
             <table class="table table-bordered table-hover w-100 mt-2">
                 <thead class="thead-dark">
                     <tr>
@@ -225,30 +225,30 @@
 
                 <div class="form-check-inline">
                     <div class="mr-2">
-                        <label class="font-weight-normal mr-sm-2 mt-2 mb-2" for="grupo">R.P.E. Títular:</label>
-                        <input type="text" class="form-control" id="grupo" name="gpo">
+                        <label class="font-weight-normal mr-sm-2 mt-2 mb-2" for="rpeTitular">R.P.E. Títular:</label>
+                        <input type="text" class="form-control" id="rpeTitular" name="rpeTi">
                     </div>
 
                     <div class="mr-2 w-75">
-                        <label class="font-weight-normal mr-sm-2 mt-2 mb-2" for="claveMateria">Sinodal Títular:</label>
-                        <input type="text" class="form-control" id="claveMateria" name="cveMat">
+                        <label class="font-weight-normal mr-sm-2 mt-2 mb-2" for="sinodalTitular">Sinodal Títular:</label>
+                        <input type="text" class="form-control" id="sinodalTitular" name="sinodalTi">
                     </div>
 
                     <div>
-                        <label class="font-weight-normal mr-sm-2 mt-2 mb-2" for="materia">No. de Recibo:</label>
-                        <input type="text" class="form-control" id="materia" name="mat">
+                        <label class="font-weight-normal mr-sm-2 mt-2 mb-2" for="recibo">No. de Recibo:</label>
+                        <input type="text" class="form-control" id="recibo" name="noRecibo">
                     </div>
                 </div>
 
                 <div class="form-check-inline">
                     <div class="mr-2 w-25">
-                        <label class="font-weight-normal mr-sm-2 mt-2 mb-2" for="grupo">R.P.E. Secretario:</label>
-                        <input type="text" class="form-control" id="grupo" name="gpo">
+                        <label class="font-weight-normal mr-sm-2 mt-2 mb-2" for="rpeSecretario">R.P.E. Secretario:</label>
+                        <input type="text" class="form-control" id="rpeSecretario" name="rpeSec">
                     </div>
 
                     <div class="mr-2 w-50">
-                        <label class="font-weight-normal mr-sm-2 mt-2 mb-2" for="claveMateria">Sinodal Secretario:</label>
-                        <input type="text" class="form-control" id="claveMateria" name="cveMat">
+                        <label class="font-weight-normal mr-sm-2 mt-2 mb-2" for="sinodalSecretario">Sinodal Secretario:</label>
+                        <input type="text" class="form-control" id="sinodalSecretario" name="sinodalSec">
                     </div>
 
                     <div class="w-25">
@@ -260,7 +260,7 @@
 
         <form class="container-fluid" action="#"> <!-- Status ET y ER -->
 
-            <div class="container-fluid table-m mb-3">
+            <div class="card table-m mb-3">
                 <table class="table table-bordered table-hover w-100 mt-2">
                     <thead class="thead-dark">
                         <tr>

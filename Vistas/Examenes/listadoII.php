@@ -24,7 +24,7 @@
             <input type="text" class="fill-control mb-2" id="fecha" name="fecha">
         </div>
 
-        <div class="row table-l"> <!-- Examenes Programados -->
+        <div class="card table-l"> <!-- Examenes Programados -->
             <table class="table table-bordered table-hover w-100 mt-2">
                 <thead class="thead-dark">
                     <tr>

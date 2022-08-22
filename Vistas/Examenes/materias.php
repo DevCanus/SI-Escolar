@@ -35,7 +35,7 @@
                 </div>
 
                 <div class="row w-100 mt-4">
-                    <div class="col-sm table-x">
+                    <div class="card col-sm table-x ml-2">
                         <table class="table table-bordered table-hover"> <!-- Selección de Materias -->
                             <thead class="thead-dark">
                                 <tr>
@@ -119,7 +119,7 @@
                 <label class="font-weight-normal mb-1 mr-sm-3" for="areaTexto">Área:</label>
                 <input type="text" class="w-75 mb-2" id="areaTexto" name="areaTxt">
 
-                <div class="row table-m mb-3"> <!-- Materias Seleccionadas -->
+                <div class="card table-m mb-3"> <!-- Materias Seleccionadas -->
                     <table class="table table-bordered table-hover">
                         <thead class="thead-dark">
                             <tr>

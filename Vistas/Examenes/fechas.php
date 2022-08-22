@@ -192,7 +192,7 @@
         </form>
     </div>
 
-    <div class="container-fluid table-m mt-4"> <!-- Tabla de examenes programados -->
+    <div class="card table-m mt-4"> <!-- Tabla de examenes programados -->
         <table class="table table-bordered table-hover">
             <thead class="thead-dark">
                 <tr>
@@ -291,7 +291,7 @@
 
     <div class="card container-fluid mt-4 p-3"> <!-- CRUD materias -->
         <div class="row">
-            <div class="col table-s">
+            <div class="card col table-s mx-2">
                 <table class="table table-bordered table-hover">
                     <thead class="thead-dark">
                         <tr>
@@ -302,28 +302,28 @@
                     <tbody class="font.weight-normal">
                         <!-- Contenidos de la tabla -->
                         <tr>
-                            <th class="w-25">Cve. Materia</th>
-                            <th class="w-75">Materia</th>
+                            <td class="w-25">Cve. Materia</td>
+                            <td class="w-75">Materia</td>
                         </tr>
                         <tr>
-                            <th class="w-25">Cve. Materia</th>
-                            <th class="w-75">Materia</th>
+                            <td class="w-25">Cve. Materia</td>
+                            <td class="w-75">Materia</td>
                         </tr>
                         <tr>
-                            <th class="w-25">Cve. Materia</th>
-                            <th class="w-75">Materia</th>
+                            <td class="w-25">Cve. Materia</td>
+                            <td class="w-75">Materia</td>
                         </tr>
                         <tr>
-                            <th class="w-25">Cve. Materia</th>
-                            <th class="w-75">Materia</th>
+                            <td class="w-25">Cve. Materia</td>
+                            <td class="w-75">Materia</td>
                         </tr>
                         <tr>
-                            <th class="w-25">Cve. Materia</th>
-                            <th class="w-75">Materia</th>
+                            <td class="w-25">Cve. Materia</td>
+                            <td class="w-75">Materia</td>
                         </tr>
                         <tr>
-                            <th class="w-25">Cve. Materia</th>
-                            <th class="w-75">Materia</th>
+                            <td class="w-25">Cve. Materia</td>
+                            <td class="w-75">Materia</td>
                         </tr>
                     </tbody>
                 </table>
