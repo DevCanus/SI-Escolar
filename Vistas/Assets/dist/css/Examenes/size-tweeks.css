@@ -1,0 +1,22 @@
+body { font-size: 11px; }
+
+.font-reduce-button { font-size: 11px; } 
+
+i { font-size: 12px; }
+
+.filler { 
+    display:flex; 
+    align-items: flex-start; 
+}
+
+.fill-control { flex: 1; }
+
+.table-s, .table-m, .table-l, .table-x { overflow: auto; }
+
+.table-s {  max-height: 150px; }
+
+.table-m { max-height: 250px; }
+
+.table-l { max-height: 350px; }
+
+.table-x {  max-height: 500px; }

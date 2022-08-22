@@ -1,0 +1,12 @@
+
+.salon-label-mat { width: 40%; }
+
+.selection {
+    overflow: auto; 
+    max-height: 500px;
+ }
+
+.selector {
+    overflow: auto; 
+    max-height: 250px;
+ }
