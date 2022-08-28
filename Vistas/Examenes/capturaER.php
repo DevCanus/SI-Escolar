@@ -104,39 +104,39 @@
         <div class="card px-3 pt-3">
             <div class="row filler">
                 <label class="font-weight-normal mr-sm-2 mb-2" for="materia">Materia:</label>
-                <input type="text" class="fill-control mr-3 mb-2" id="materia" name="materiaExa">
+                <input type="text" class="form-control fill-control mr-3 mb-2" id="materia" name="materiaExa">
 
                 <label class="font-weight-normal mr-sm-2 mb-2" for="tipoExamen">Tipo de Exámen:</label>
-                <input type="text" class="mr-3 mb-2" id="tipoExamen" name="tipoExa">
+                <input type="text" class="form-control fill-control mr-3 mb-2" id="tipoExamen" name="tipoExa">
 
                 <label class="font-weight-normal mr-sm-2 mb-2" for="salon">Salón:</label>
-                <input type="text" class="mb-2" id="salon" name="salonExa">
+                <input type="text" class="form-control fill-control mb-2" id="salon" name="salonExa">
             </div>
 
             <div class="row filler">
                 <label class="font-weight-normal mr-sm-2 mb-2" for="sinodalTitular">Sinodal Títular:</label>
-                <input type="text" class="fill-control mr-3 mb-2" id="sinodalTitular" name="sinodalTi">
+                <input type="text" class="form-control fill-control mr-3 mb-2" id="sinodalTitular" name="sinodalTi">
 
                 <label class="font-weight-normal mr-sm-2 mb-2" for="sinodalSecretario">Sinodal Secretario:</label>
-                <input type="text" class="fill-control mb-2" id="sinodalSecretario" name="sinodalSec">
+                <input type="text" class="form-control fill-control mb-2" id="sinodalSecretario" name="sinodalSec">
             </div>
 
             <div class="row filler">
                 <div class="card fill-control bg-dark px-2 pt-3">
                     <p>Capturar con literales como AC, NP sin puntos y con multiplos de 5 cuando es calificación aprobatoría como 60, 65 y 70, ...</p>
                 </div>
-                <div class="col ml-3 mt-3">
+                <div class="col filler ml-3 mt-3">
                     <label class="font-weight-normal mr-sm-2 mb-2" for="fecha">Fecha:</label>
-                    <input type="text" class="mr-3 mb-2" id="fecha" name="fechaExa">
+                    <input type="text" class="form-control mr-3 mb-2" id="fecha" name="fechaExa">
                     
                     <label class="font-weight-normal mr-sm-2 mb-2" for="hora">Hora:</label>
-                    <input type="text" class="mb-2" id="hora" name="horaExa">
+                    <input type="text" class="form-control mb-2" id="hora" name="horaExa">
                 </div>
             </div>
         </div>
 
         <div class="filler">
-            <div class="card table-lx w-75 mr-3 mb-3">
+            <div class="card table-x w-75 mr-3 mb-3">
                 <table class="table table-bordered table-hover mt-2">
                     <thead class="thead-dark">
                         <tr>
@@ -236,24 +236,44 @@
                             <td>OROZCO PEREZ ARMANDO</td>
                             <td>25</td>
                         </tr>
+                        <tr>
+                            <td>0324166</td>
+                            <td>OROZCO PEREZ ARMANDO</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>0324166</td>
+                            <td>OROZCO PEREZ ARMANDO</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>0324166</td>
+                            <td>OROZCO PEREZ ARMANDO</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>0324166</td>
+                            <td>OROZCO PEREZ ARMANDO</td>
+                            <td>25</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
 
             <div class="card fill-control px-3 pb-3">
                 <div class="row">
-                    <button type="submit" class="btn btn-primary w-100 mt-2 p-1"><span class="font-reduce-button">Capturar</span></button>
+                    <button type="submit" class="btn btn-primary w-100 mt-2 ">Capturar</button>
                 </div>
 
                 <div class="row filler">
-                    <button type="submit" class="btn btn-warning fill-control mr-2 mt-2 p-1"><span class="font-reduce-button">Grabar</span></button>
-                    <button type="submit" class="btn btn-danger fill-control mt-2 p-1"><span class="font-reduce-button">Deshacer</span></button>
+                    <button type="submit" class="btn btn-warning fill-control mr-2 mt-2 ">Grabar</button>
+                    <button type="submit" class="btn btn-danger fill-control mt-2 ">Deshacer</button>
                </div>
 
                 <div class="row filler">
                     <div class="mr-2">
                         <label class="font-weight-normal my-2" for="ciclo">Ciclo Escolar:</label>
-                        <select class="form-control mb-2 p-1" id="ciclo" name="cicloEsc">
+                        <select class="form-control mb-2 " id="ciclo" name="cicloEsc">
                             <option>2021-2022/II</option>
                             <option>2</option>
                             <option>3</option>
@@ -262,14 +282,14 @@
                     </div>
 
                     <div class="col fill-control">
-                        <button type="submit" class="btn btn-primary w-100 mt-3 p-3"><span class="font-reduce-button">Listar Fechas</span></button>
+                        <button type="submit" class="btn btn-primary w-100 mt-3 p-3">Listar Fechas</button>
                     </div>
                 </div>
 
                 <div class="row filler">
                     <div class="fill-control">
                         <label class="font-weight-normal my-2" for="ciclo">Periodo:</label>
-                        <select class="form-control w-100 mb-2 p-1" id="ciclo" name="cicloEsc">
+                        <select class="form-control w-100 mb-2 " id="ciclo" name="cicloEsc">
                             <option>EXÁMENES A TITULO</option>
                             <option>2</option>
                             <option>3</option>
@@ -278,7 +298,7 @@
                     </div>
                 </div>
 
-                <div class="card table-m mr-3 mb-3">
+                <div class="card table-m mb-3">
                     <table class="table table-bordered table-hover mt-2">
                         <thead class="thead-dark">
                             <tr>
@@ -306,11 +326,11 @@
                 </div>
 
                 <div class="row">
-                    <button type="submit" class="btn btn-primary w-100 mt-1 p-1"><span class="font-reduce-button">Listar Exámenes</span></button>
+                    <button type="button" class="btn btn-primary w-100 mt-1 " onclick="CargarPagina('Vistas/Examenes/listadoII.php','content-wrapper')">Listar Exámenes</button>
                 </div>
 
                 <div class="row">
-                    <button type="submit" class="btn btn-danger w-100 mt-1 p-1"><span class="font-reduce-button">Salir</span></button>
+                    <button type="submit" class="btn btn-danger w-100 mt-1 ">Salir</button>
                 </div>
             </div>
         </div>

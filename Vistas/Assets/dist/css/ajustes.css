@@ -1,0 +1,28 @@
+.filler { 
+    display:flex; 
+    align-items: flex-start; 
+}
+
+.fill-control { flex: 1; }
+
+.table-s, .table-m, .table-l, .table-x { 
+    overflow: auto; 
+    margin: 0px;
+    padding: 0px;
+}
+
+.table-s { max-height: 150px; }
+
+.table-m { max-height: 250px; }
+
+.table-l { max-height: 350px; }
+
+.table-x { max-height: 500px; }
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 6px;
+}
+
+.table {
+    margin: 0px;
+}

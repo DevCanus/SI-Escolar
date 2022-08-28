@@ -27,44 +27,41 @@
                 </div>
                 
                 <div class="col-sm">
-                    <div class="row">
-                        <label class="font-weight-bold mr-sm-2 mb-2" for="claveUASLP">Cve. UASLP:</label>
-                        <input type="text" class="mr-3 mb-2" id="claveUASLP" name="cveUASLP">
+                    <div class="row filler">
+                        <label class="font-weight-normal mr-sm-2 mb-2" for="claveUASLP">Cve. UASLP:</label>
+                        <input type="text" class="form-control fill-control mr-3 mb-2" id="claveUASLP" name="cveUASLP">
 
-                        <label class="font-weight-bold mr-sm-2 mb-2" for="claveIng">Cve. Ingeniería:</label>
-                        <input type="text" class="mb-2" id="claveIng" name="cveIng">
+                        <label class="font-weight-normal mr-sm-2 mb-2" for="claveIng">Cve. Ingeniería:</label>
+                        <input type="text" class="form-control fill-control mb-2" id="claveIng" name="cveIng">
                     </div>
 
                     <div class="row filler">
-                        <label class="font-weight-bold mr-sm-2 mb-2" for="nombre">Nombre:</label>
-                        <input type="text" class="fill-control mr-3 mb-2" id="nombre" name="nomb">
+                        <label class="font-weight-normal mr-sm-2 mb-2" for="nombre">Nombre:</label>
+                        <input type="text" class="form-control fill-control mr-3 mb-2" id="nombre" name="nomb">
                     </div>
 
                     <div class="row filler">
-                        <label class="font-weight-bold mr-sm-2 mb-2" for="asesor">Asesor:</label>
-                        <input type="text" class="fill-control mr-3 mb-2" id="asesor" name="assr">
+                        <label class="font-weight-normal mr-sm-2 mb-2" for="asesor">Asesor:</label>
+                        <input type="text" class="form-control fill-control mr-3 mb-2" id="asesor" name="assr">
                     </div>
 
                     <div class="row filler">
-                        <label class="font-weight-bold mr-sm-2 mb-2" for="carrera">Carrera:</label>
-                        <input type="text" class="fill-control mr-3 mb-2" id="carrera" name="carr">
+                        <label class="font-weight-normal mr-sm-2 mb-2" for="carrera">Carrera:</label>
+                        <input type="text" class="form-control fill-control mr-3 mb-2" id="carrera" name="carr">
                     </div>
                 </div>
 
                 <div class="col-sm-3">
                     <div class="form-check-inline">
-                        <label class="form-check-label font-weight-bold mb-1 mr-sm-3" for="ciclo">Ciclo Escolar:</label>
-                        <select class="form-check-input mr-3 mb-2 p-1" id="ciclo" name="cicloEsc">
+                        <label class="form-check-label font-weight-normal mb-1 mr-sm-3" for="ciclo">Ciclo Escolar:</label>
+                        <select class="form-control form-check-input mr-3 mb-2 " id="ciclo" name="cicloEsc">
                             <option>2021-2022/II</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
                         </select>
                     </div>
 
                     <div class="form-check-inline">
-                        <label class="form-check-label font-weight-bold mb-1 mr-sm-3" for="periodo">Período:</label>
-                        <select class="form-check-input mr-3 mb-2 p-1" id="periodo" name="periodoExa">
+                        <label class="form-check-label font-weight-normal mb-1 mr-sm-3" for="periodo">Período:</label>
+                        <select class="form-control form-check-input mr-3 mb-2 " id="periodo" name="periodoExa">
                             <option>EXÁMENES A TÍTULO</option>
                             <option>2</option>
                             <option>3</option>
@@ -72,7 +69,7 @@
                         </select>
                     </div>
                     
-                    <button type="submit" class="btn btn-secondary w-75 mt-3 p-1"><i class="fa fa-search mr-2" aria-hidden="true"></i><span class="font-reduce-button">Buscar</span></button>
+                    <button type="submit" class="btn btn-secondary w-100 mt-3 "><i class="fa fa-search mr-2" aria-hidden="true"></i>Buscar</button>
                 </div>
             </form>
         </div>
@@ -227,7 +224,7 @@
                 </div>
 
                 <div>
-                    <button type="submit" class="btn btn-primary mr-2 mt-3 py-1"><span class="font-reduce-button">IR</span></button>
+                    <button type="submit" class="btn btn-primary mr-2 mt-4 ">IR</button>
                 </div>
 
                 <div class="mr-2 w-50">
@@ -251,7 +248,7 @@
                 </div>
 
                 <div>
-                    <button type="submit" class="btn btn-primary mr-2 mt-3 py-1"><span class="font-reduce-button">Completar</span></button>
+                    <button type="submit" class="btn btn-primary mr-2 mt-4 ">Completar</button>
                 </div>
 
                 <div>
@@ -273,7 +270,7 @@
 
                 <div class="mr-2 w-25">
                     <label class="font-weight-normal mt-3 mb-2 mr-sm-3" for="sinodalTitularDrop">Sinodal Títular:</label>
-                    <select class="form-control mr-3 mb-2 p-1" id="sinodalTitularDrop" name="sinodalTiDrop">
+                    <select class="form-control mr-3 mb-2 " id="sinodalTitularDrop" name="sinodalTiDrop">
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -283,7 +280,7 @@
 
                 <div class="mr-2">
                     <label class="font-weight-normal mt-3 mb-2 mr-sm-3" for="unica">Única:</label>
-                    <select class="form-control mr-3 mb-2 p-1" id="unica" name="unicaMat">
+                    <select class="form-control mr-3 mb-2 " id="unica" name="unicaMat">
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -293,7 +290,7 @@
 
                 <div class="mr-2">
                     <label class="font-weight-normal mt-3 mb-2 mr-sm-3" for="tipoExamen">Tipo de Examen:</label>
-                    <select class="form-control mr-3 mb-2 p-1" id="tipoExamen" name="tipoExa">
+                    <select class="form-control mr-3 mb-2 " id="tipoExamen" name="tipoExa">
                         <option>ET</option>
                         <option>2</option>
                         <option>3</option>
@@ -314,7 +311,7 @@
                 </div>
 
                 <div class="w-25">
-                    <button type="submit" class="btn btn-primary w-100 mt-4"><span class="font-reduce-button">Registrar Exámen</span></button>
+                    <button type="submit" class="btn btn-primary w-100 mt-5">Registrar Exámen</button>
                 </div>
             </div>
         </div>
@@ -429,8 +426,8 @@
             </div>
 
             <div class="fill-control">
-                <button type="submit" class="btn btn-danger w-100 mt-1 p-1"><span class="font-reduce-button">Borrar Registro</span></button>
-                <button type="submit" class="btn btn-danger w-100 mt-4 p-1"><span class="font-reduce-button">Salir</span></button>
+                <button type="submit" class="btn btn-danger w-100 mt-1 ">Borrar Registro</button>
+                <button type="submit" class="btn btn-danger w-100 mt-3 ">Salir</button>
             </div>
         </div>
     </form>

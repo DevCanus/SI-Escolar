@@ -33,13 +33,6 @@
                 <p>Fechas para ET y ER</p>
               </a>
             </li>
-
-            <li class="nav-item">
-              <a href="#" class="nav-link" onclick="CargarPagina('Vistas/Examenes/materias.php','content-wrapper')">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Agregar Materias al Calendario de Examenes</p>
-              </a>
-            </li>
             
             <li class="nav-item">
               <a href="#" class="nav-link" onclick="CargarPagina('Vistas/Examenes/registroET.php','content-wrapper')">
@@ -65,14 +58,7 @@
             <li class="nav-item">
               <a href="#" class="nav-link" onclick="CargarPagina('Vistas/Examenes/listadoI.php','content-wrapper')">
                 <i class="far fa-circle nav-icon"></i>
-                <p>Listado de Examenes I</p>
-              </a>
-            </li>
-            
-            <li class="nav-item">
-              <a href="#" class="nav-link" onclick="CargarPagina('Vistas/Examenes/listadoII.php','content-wrapper')">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Listado de Examenes II</p>
+                <p>Listado de Examenes</p>
               </a>
             </li>
             
